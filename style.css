@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Pixelify+Sans:wght@400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:wght@400;500&display=swap');
+
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", "Helvetica Neue", sans-serif;
+}
+
+body,html{
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.container{
+    height: 400px;
+    width : 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.count{
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.btns{
+    width: 340px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button{
+    padding-inline: 15px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+
+
+
